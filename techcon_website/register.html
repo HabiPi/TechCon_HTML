@@ -19,24 +19,25 @@
     </header>
     
     <main>
-       <form action="" method="">
-        <label for="name">Name:</label>
-<input type="text" id="Name" name="" size="25"> </br></br>
-<label for="name"> Email:</label>
-<input type="text" id="Email" name="" size="25"></br></br>
-<label for="name"> Password:</label>
-<input type="password" id="Password"name="" size="25"></br></br>
-<label for="name"> Confirm Password:</label>
-<input type="password" id="Confirm Password"name="" size="25"></br></br>
+        <form action="/submit-form" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"placeholder="full name">
+        
+            <label for="email">Email Addre:</label>
+            <input type="email" id="email" name="email" placeholder="example@domain.com">
 
-<label for="name">Agree to terms & conditions</label>
-<input type="checkbox" name="" id="checkbox"> 
-</br></br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="enter password">
 
-<label for="name">Register Now</label>
-<input type="submit" name="Register Now">
+            <label for="Confirm">Confirm Password:</label>
+            <input type="password" id="Confirm" name="Confirm" required placeholder="confirm password">
 
-       </form>
+            <label for="checkbox">Agree to Terms & Conditions</label>
+            <input type="checkbox" id="checkbox" name="checkbox" required placeholder="">
+        
+            <label for="submit">Register Now</label>
+            <button type="submit">Submit</button>
+        </form>
     </main>
 
 
